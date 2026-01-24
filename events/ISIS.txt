@@ -1,0 +1,24 @@
+add_namespace = isis
+
+
+country_event = {
+	id = isis.1
+	title = isis.1.t
+	desc = isis.1.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+	
+	is_triggered_only = yes
+	
+	fire_only_once = no
+	
+	immediate = {
+		hidden_effect = {
+			declare_war_on = {
+				target = ISR
+				type = annex_everything
+			}
+		}
+		
+	}
+	
+}

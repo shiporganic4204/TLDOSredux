@@ -1,0 +1,43 @@
+ISR_shekels = {
+	ISR_shekels_display = {
+		visible = { always = yes }
+		cost = 0
+		fire_only_once = no
+		complete_effect = {
+		}
+	}
+	
+	ISR_spend_display = {
+		visible = { always = yes }
+		cost = 0
+		fire_only_once = no
+		complete_effect = {
+		}
+	}
+	
+	ISR_buy_equ1 = {
+		visible = { always = yes }
+		available = {
+			check_variable = { shekels > 0 }
+		}
+		cost = 50
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = no
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 1500
+			}
+			add_equipment_to_stockpile = {
+				type = artillery_equipment_1
+				amount = 50
+			}
+			subtract_from_variable = {
+				var = shekels
+				value = 1
+			}
+		}
+	}
+}

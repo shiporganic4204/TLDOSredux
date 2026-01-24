@@ -1,0 +1,168 @@
+add_namespace = arabia
+
+country_event = {
+	id = arabia.1
+	title = arabia.1.t
+	desc = arabia.1.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+	
+	fire_only_once = yes
+
+	
+	trigger = {
+		tag = ARB
+		has_defensive_war = no
+		NOT = { has_government = communism }
+		date > 1936.5.8 
+	}
+	mean_time_to_happen = {
+		days = 151	
+	}
+
+	option = { # Support Dr Thrax
+		name = arabia.1.a
+		ai_chance = { factor = 70 }
+		hidden_effect = {
+				453 = {
+				transfer_state_to = AR1
+				create_unit = {
+					division = "name = \"Junaids\" division_template = \"Civilians With Rifles\" start_experience_factor = 0.5"
+					owner = AR1
+				}
+				create_unit = {
+					division = "name = \"Junaids\" division_template = \"Civilians With Rifles\" start_experience_factor = 0.5"
+					owner = AR1
+				}				create_unit = {
+					division = "name = \"Junaids\" division_template = \"Civilians With Rifles\" start_experience_factor = 0.5"
+					owner = AR1
+				}				create_unit = {
+					division = "name = \"Junaids\" division_template = \"Civilians With Rifles\" start_experience_factor = 0.5"
+					owner = AR1
+				}				create_unit = {
+					division = "name = \"Junaids\" division_template = \"Civilians With Rifles\" start_experience_factor = 0.5"
+					owner = AR1
+				}				create_unit = {
+					division = "name = \"Junaids\" division_template = \"Civilians With Rifles\" start_experience_factor = 0.5"
+					owner = AR1
+				}				create_unit = {
+					division = "name = \"Junaids\" division_template = \"Civilians With Rifles\" start_experience_factor = 0.5"
+					owner = AR1
+				}				create_unit = {
+					division = "name = \"Junaids\" division_template = \"Civilians With Rifles\" start_experience_factor = 0.5"
+					owner = AR1
+				}				create_unit = {
+					division = "name = \"Junaids\" division_template = \"Civilians With Rifles\" start_experience_factor = 0.5"
+					owner = AR1
+				}				create_unit = {
+					division = "name = \"Junaids\" division_template = \"Civilians With Rifles\" start_experience_factor = 0.5"
+					owner = AR1
+				}				create_unit = {
+					division = "name = \"Junaids\" division_template = \"Civilians With Rifles\" start_experience_factor = 0.5"
+					owner = AR1
+				}				create_unit = {
+					division = "name = \"Jaysh\" division_template = \"Infantry\" start_experience_factor = 0.5"
+					owner = AR1
+				}
+			}
+				907 = { transfer_state_to = AR1 }
+				446 = { transfer_state_to = AR1 }
+				447 = { transfer_state_to = AR1 }
+				declare_war_on = {
+					target = AR1
+					type = annex_everything
+				}
+				AR1 = { country_event = isis.1}
+				play_song = "gla"
+				start_civil_war = {
+					ruling_party = fascism
+					ideology = communism
+					size = 0.5
+					capital = 455
+					states = { 455 }
+				}
+		}
+	}	
+
+	option = { # Support Mahmud
+		name = arabia.1.b
+		ai_chance = { factor = 30 }
+		hidden_effect = {
+				453 = {
+				transfer_state_to = AR1
+				create_unit = {
+					division = "name = \"Junaids\" division_template = \"Civilians With Rifles\" start_experience_factor = 0.5"
+					owner = AR1
+				}
+				create_unit = {
+					division = "name = \"Junaids\" division_template = \"Civilians With Rifles\" start_experience_factor = 0.5"
+					owner = AR1
+				}				create_unit = {
+					division = "name = \"Junaids\" division_template = \"Civilians With Rifles\" start_experience_factor = 0.5"
+					owner = AR1
+				}				create_unit = {
+					division = "name = \"Junaids\" division_template = \"Civilians With Rifles\" start_experience_factor = 0.5"
+					owner = AR1
+				}				create_unit = {
+					division = "name = \"Junaids\" division_template = \"Civilians With Rifles\" start_experience_factor = 0.5"
+					owner = AR1
+				}				create_unit = {
+					division = "name = \"Junaids\" division_template = \"Civilians With Rifles\" start_experience_factor = 0.5"
+					owner = AR1
+				}				create_unit = {
+					division = "name = \"Junaids\" division_template = \"Civilians With Rifles\" start_experience_factor = 0.5"
+					owner = AR1
+				}				create_unit = {
+					division = "name = \"Junaids\" division_template = \"Civilians With Rifles\" start_experience_factor = 0.5"
+					owner = AR1
+				}				create_unit = {
+					division = "name = \"Junaids\" division_template = \"Civilians With Rifles\" start_experience_factor = 0.5"
+					owner = AR1
+				}				create_unit = {
+					division = "name = \"Junaids\" division_template = \"Civilians With Rifles\" start_experience_factor = 0.5"
+					owner = AR1
+				}				create_unit = {
+					division = "name = \"Junaids\" division_template = \"Civilians With Rifles\" start_experience_factor = 0.5"
+					owner = AR1
+				}				create_unit = {
+					division = "name = \"Jaysh\" division_template = \"Infantry\" start_experience_factor = 0.5"
+					owner = AR1
+				}
+			}
+				907 = { transfer_state_to = AR1 }
+				446 = { transfer_state_to = AR1 }
+				447 = { transfer_state_to = AR1 }
+				declare_war_on = {
+					target = AR1
+					type = annex_everything
+				}
+				AR1 = { country_event = isis.1}
+				play_song = "gla"
+				start_civil_war = {
+					ruling_party = democratic
+					ideology = communism
+					size = 0.5
+					capital = 455
+					states = { 455 }
+				}
+		}
+	}	
+
+}
+
+country_event = {
+	id = arabia.2
+	title = arabia2.t
+	desc = arabia.2.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+	
+	fire_only_once = yes
+
+	
+	trigger = {
+		tag = ARB
+		date > 1936.3.1 
+	}
+	mean_time_to_happen = {
+		days = 34	
+	}
+}

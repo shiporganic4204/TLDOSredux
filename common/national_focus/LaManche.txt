@@ -1,0 +1,52 @@
+﻿
+focus_tree = {
+	id = La_Manche_Tree
+	
+	country = {
+		base = 0
+		modifier = {
+			add = 10
+			tag = LMK
+		}
+	}
+	
+	reset_on_civilwar = no
+
+	initial_show_position = {
+		focus = industrial_effort
+	}
+
+	focus = {
+		id = LMK_look_inside
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 8
+		y = 0
+		cost = 10
+		
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 50
+			
+		}
+	}
+	focus = {
+		id = LMK_new_taxes
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 8
+		y = 1
+		cost = 10
+		prerequisite = {
+		focus = LMK_look_inside	
+		}
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_stability = -0.15
+			add_political_power = -10
+			add_ideas = {
+				LMK_new_taxes_idea
+			}
+		}
+	}		
+}

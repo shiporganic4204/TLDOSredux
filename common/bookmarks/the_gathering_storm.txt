@@ -1,0 +1,32 @@
+bookmarks = {
+	bookmark = {
+		name = "GATHERING_STORM_NAME"
+		desc = "GATHERING_STORM_DESC"
+		date = 1936.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "GER"
+		default = yes
+		
+		"AFI"={
+			minor = no
+			history = "AFI_START_DESC"
+			ideology = fascism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"LMK"={
+			minor = no
+			history = "LMK_START_DESC"
+			ideology = neutraliry
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"---"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+	}
+}

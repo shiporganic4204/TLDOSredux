@@ -1,0 +1,54 @@
+technologies = {
+	TechnicalsT = {
+		folder = {
+			name = armour_folder
+			position = {
+				x = 0
+				y = 3
+			}
+		
+		}
+        allow = {
+            TAG = ARB
+        }
+		path = {
+			leads_to_tech = TachankaT
+		
+		}
+		start_year = 1936
+		research_cost = 1.5
+		categories = {
+			TechnicalsT_categ
+			armor
+			mio_cat_tech_all_armor_and_modules
+			cat_light_armor
+			mio_cat_tech_light_armor_and_modules
+		}
+	}
+	
+	TachankaT = {
+		folder = {
+			name = armour_folder
+			position = {
+				x = 0
+				y = 4
+			}
+		
+		}
+        allow = {
+            TAG = ARB
+        }
+		enable_equipments = {
+			HMGTechnical
+		}
+		start_year = 1936
+		research_cost = 0.5
+		categories = {
+			TechnicalsT_categ
+			armor
+			mio_cat_tech_all_armor_and_modules
+			cat_light_armor
+			mio_cat_tech_light_armor_and_modules
+		}
+	}
+}
