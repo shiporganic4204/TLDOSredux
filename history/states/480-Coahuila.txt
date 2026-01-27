@@ -13,7 +13,7 @@ state = {
 
 	history = {
 
-		owner = MEX
+		owner = NOT
 		add_core_of = MEX
 		add_core_of = RIG
 

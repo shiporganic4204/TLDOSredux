@@ -11,7 +11,7 @@ state = {
 
 	history = {
 
-		owner = CHI
+		owner = NOT
 		add_core_of = PRC
 		add_core_of = CHI
 		1936.1.1 = {
@@ -31,7 +31,7 @@ state = {
 				}
 				remove_core_of = XIC
 			}		
-			owner = CHI
+			owner = NOT
 			controller = CHI
 		}
 

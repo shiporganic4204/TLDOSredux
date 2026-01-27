@@ -11,7 +11,7 @@ state={
 	state_category = large_city
 
 	history={
-		owner = SPR
+		owner = NOT
 		add_core_of = CAT
 		victory_points = {
 			9764 30

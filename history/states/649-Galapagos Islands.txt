@@ -6,7 +6,7 @@ state = {
 
 	history = {
 
-		owner = ECU
+		owner = NOT
 		add_core_of = ECU
 
 		buildings = {

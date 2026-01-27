@@ -7,7 +7,7 @@ state = {
 
 	history = {
 
-		owner = JOR
+		owner = NOT
 		add_core_of = JOR
 
 		buildings = {

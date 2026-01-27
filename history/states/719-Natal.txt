@@ -11,7 +11,7 @@ state={
 
 
 	history={
-		owner = SAF
+		owner = NOT
 		buildings = {
 			infrastructure = 3 #was: 5
 			industrial_complex = 2

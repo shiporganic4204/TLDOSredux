@@ -18,7 +18,7 @@ state = {
 			9126 1
 		}
 		
-		owner = NOR
+		owner = NOT
 		add_core_of = NOR
 		add_core_of = SMI
 		

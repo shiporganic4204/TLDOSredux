@@ -6,7 +6,7 @@ state = {
 	
 	history = {
 	
-		owner = CAN
+		owner = NOT
 		add_core_of = CAN
 		add_core_of = QUE
 

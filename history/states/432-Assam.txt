@@ -14,7 +14,7 @@ state={
 	local_supplies=0.000
 	history={
 
-		owner = RAJ
+		owner = NOT
 		buildings = {
 			infrastructure = 1
 		}

@@ -11,7 +11,7 @@ state = {
 
 	history = {
 
-		owner = IRQ
+		owner = NOT
 		add_core_of = IRQ
 		add_claim_by = KUR
 

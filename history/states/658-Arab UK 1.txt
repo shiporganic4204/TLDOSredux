@@ -11,7 +11,7 @@ state = {
 
 	history = {
 		
-		owner = ENG
+		owner = NOT
 		add_core_of = UAE
 
 		victory_points = {

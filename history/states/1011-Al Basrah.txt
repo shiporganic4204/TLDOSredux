@@ -12,7 +12,7 @@ state = {
 
 	history = {
 
-		owner = IRQ
+		owner = NOT
 		add_core_of = IRQ
 
 		victory_points = {

@@ -7,7 +7,7 @@ state = {
 	
 	history = {
 		
-		owner = ENG
+		owner = NOT
 		add_core_of = EGY
 
 		buildings = {

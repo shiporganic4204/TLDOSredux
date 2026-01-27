@@ -10,7 +10,7 @@ state = {
 	
 	history = {
 
-		owner = AUS
+		owner = NOT
 		add_core_of = AUS
 
 		victory_points = {
@@ -23,7 +23,7 @@ state = {
 		}
 		
 		1938.3.12 = {
-			owner = GER
+			owner = NOT
 			controller = GER
 			add_core_of = GER
 		}

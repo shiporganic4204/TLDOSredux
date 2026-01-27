@@ -8,7 +8,7 @@ state = {
 	
 	history = {
 
-		owner = BRM
+		owner = NOT
 		add_core_of = BRM
 
 		buildings = {

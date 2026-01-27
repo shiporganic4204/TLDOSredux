@@ -8,7 +8,7 @@ state = {
 
 	history = {
 
-		owner = XSM
+		owner = NOT
 		add_core_of = XSM
 		add_core_of = CHI
 		add_core_of = PRC
@@ -39,7 +39,7 @@ state = {
 				}
 				remove_core_of = SIC
 			}		
-			owner = CHI
+			owner = NOT
 			controller = CHI
 		}
 

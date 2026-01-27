@@ -13,7 +13,7 @@ state= {
 
 	history=
 	{
-		owner = ENG
+		owner = NOT
 		victory_points = {
 			407 3 #Swansea
 		}

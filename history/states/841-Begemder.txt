@@ -29,12 +29,12 @@ state = {
 			1984 2
 		}
 		
-		owner = ETH
+		owner = NOT
 		add_core_of = ETH
 		add_core_of = QEM
 
 		1936.6.1 = {
-			owner = ITA
+			owner = NOT
 			controller = ITA
 		}
 	}
