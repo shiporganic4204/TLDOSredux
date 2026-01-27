@@ -12,7 +12,7 @@ state = {
 
 	history = {
 
-		owner = CHL
+		owner = NOT
 		add_core_of = CHL
 		add_claim_by = BOL
 

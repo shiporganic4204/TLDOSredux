@@ -11,7 +11,7 @@ state = {
 
 	history = {
 
-		owner = PRU
+		owner = NOT
 		add_core_of = PRU
 
 		buildings = {

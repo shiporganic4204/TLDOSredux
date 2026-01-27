@@ -13,7 +13,7 @@ state = {
 
 	history = {
 
-		owner = ENG
+		owner = NOT
 		add_core_of = MAL
 		add_core_of = SNG
 
