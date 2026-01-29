@@ -11,8 +11,8 @@ state = {
 
 	history = {
 
-		owner = NOT
-		add_core_of = BEL
+		owner = LUX
+		add_core_of = LUX
 
 		victory_points = {
 			9418 1 # Arlons

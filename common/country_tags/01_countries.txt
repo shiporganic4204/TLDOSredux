@@ -9,7 +9,7 @@ LTX = "countries/LeftTwix.txt"
 RTX = "countries/RightTwix.txt"
 AFI = "countries/Afioslend.txt"
 HRE = "countries/HRE.txt"
-SKD = "countries/Skibidi.txt"
+
 TEU = "countries/TeutonicOrder.txt"
 UKP = "countries/Ukraina.txt"
 MAH = "countries/Mahnovshina.txt"

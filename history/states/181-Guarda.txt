@@ -12,8 +12,8 @@ state = {
 
 	history = {
 
-		owner = NOT
-		add_core_of = POR
+		owner = PRD
+		add_core_of = PRD
 
 		victory_points = {
 			9787 1 # Viseu

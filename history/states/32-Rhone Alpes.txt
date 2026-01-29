@@ -12,15 +12,15 @@ state={
 	}
 
 	history={
-		owner = NOT
+		owner = SPL
 		buildings = {
 			infrastructure = 2
 		}
 		victory_points = {
 			3768 1 
 		}
-		add_core_of = OCC
-		add_core_of = FRA
+		add_core_of = SPL
+		add_core_of = SPL
 	}
 
 	provinces={

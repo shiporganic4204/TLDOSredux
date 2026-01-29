@@ -11,9 +11,8 @@ state = {
 
 	history = {
 
-		owner = NOT
-		add_core_of = GER
-		add_core_of = WUR
+		owner = RTX
+		add_core_of = RTX
 
 		victory_points = {
 			3530 10 #Karlsruhe
@@ -33,7 +32,6 @@ state = {
 			air_base = 1
 		}
 
-		set_demilitarized_zone = yes
 		
 		1936.3.7 = {
 			set_demilitarized_zone = no

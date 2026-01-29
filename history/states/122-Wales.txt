@@ -13,7 +13,7 @@ state= {
 
 	history=
 	{
-		owner = NOT
+		owner = LMK
 		victory_points = {
 			407 3 #Swansea
 		}
@@ -28,8 +28,8 @@ state= {
 				naval_base = 3
 			}
 		}
-		add_core_of = ENG
-		add_core_of = WLS
+		add_core_of = LMK
+		add_core_of = LMK
 	}
 
 	provinces=

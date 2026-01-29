@@ -7,10 +7,10 @@ state = {
 
 	history = {
 
-		owner = NOT
-		add_core_of = GER
-		add_core_of = HAN
-		add_core_of = PRE
+		owner = HRE
+		add_core_of = HRE
+		add_core_of = HRE
+		add_core_of = HRE
 
 		victory_points = {
 			241 5 # Wilhelmshaven

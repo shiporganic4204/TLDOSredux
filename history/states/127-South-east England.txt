@@ -11,8 +11,8 @@ state = {
 
 	history = {
 
-		owner = NOT
-		add_core_of = ENG
+		owner = LMK
+		add_core_of = LMK
 
 		victory_points = { 
 			3501 20 # Dover

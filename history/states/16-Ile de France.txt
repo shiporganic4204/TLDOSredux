@@ -8,8 +8,8 @@ state = {
 
 	history = {
 
-		owner = NOT
-		add_core_of = FRA
+		owner = NPL
+		add_core_of = NPL
 
 		victory_points = {
 			11506 50 # Paris

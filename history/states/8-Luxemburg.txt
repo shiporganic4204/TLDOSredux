@@ -11,7 +11,7 @@ state = {
 
 	history = {
 
-		owner = NOT
+		owner = LUX
 		add_core_of = LUX
 
 		buildings = {
