@@ -7,7 +7,7 @@ state = {
 
 	history = {
 
-		owner = NOT
+		owner = ISR
 		add_core_of = PAL
 		add_core_of = ISR
 

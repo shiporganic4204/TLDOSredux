@@ -11,15 +11,15 @@ state={
 	state_category = city
 
 	history={
-		owner = NOT
+		owner = DNR
 		buildings = {
 			infrastructure = 3 #was: 5
 		}
 		victory_points = {
 			6474 10
 		}
-		add_core_of = SOV
-		add_core_of = UKR
+		add_core_of = DNR
+		add_core_of = UKP
 	}
 
 	provinces={

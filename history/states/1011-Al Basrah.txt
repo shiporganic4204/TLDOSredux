@@ -12,8 +12,8 @@ state = {
 
 	history = {
 
-		owner = NOT
-		add_core_of = IRQ
+		owner = ARB
+		add_core_of = ARB
 
 		victory_points = {
 			2089 5 # Basrah

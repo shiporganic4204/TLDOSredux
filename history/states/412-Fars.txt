@@ -10,8 +10,8 @@ state = {
 
 	history = {
 
-		owner = NOT
-		add_core_of = PER
+		owner = IRA
+		add_core_of = IRA
 
 		victory_points = {
 			8117 3 

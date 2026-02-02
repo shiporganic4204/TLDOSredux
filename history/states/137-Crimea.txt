@@ -7,7 +7,7 @@ state = {
 
 	history = {
 
-		owner = NOT
+		owner = MAH
 
 		victory_points = {
 			3686 20 # Sevastopol
@@ -49,8 +49,8 @@ state = {
 			
 		}
 
-		add_core_of = SOV
-		add_core_of = CRI
+		add_core_of = MAH
+		add_core_of = UKP
 
 		1939.1.1 = {
 			buildings = {

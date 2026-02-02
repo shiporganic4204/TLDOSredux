@@ -6,9 +6,9 @@ state = {
 
 	history = {
 
-		owner = NOT
-		add_core_of = SOV
-		add_core_of = UKR
+		owner = MAH
+		add_core_of = MAH
+		add_core_of = UKP
 
 		victory_points = {
 			11405 1 # Zaporozhe
