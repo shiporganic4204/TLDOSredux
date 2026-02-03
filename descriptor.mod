@@ -1,6 +1,6 @@
-version="1.0"
+version="0.1"
 tags={
 	"Alternative History"
 }
-name="TLDOSredux"
-supported_version="1.17.3.0"
+name="TLDOS2"
+supported_version="1.15.4"
