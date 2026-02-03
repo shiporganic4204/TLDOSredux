@@ -1,0 +1,21 @@
+add_namespace = shekel
+
+country_event = {
+	id = shekel.1
+	title = shekel.1.t
+	desc = shekel.1.d
+	picture = "gfx/event_pictures/shekel.dds"
+	
+	is_triggered_only = yes
+	
+	fire_only_once = no
+	
+	immediate = {
+		hidden_effect = {
+			add_to_variable = {
+				var = shekels
+				value = 1
+			}		
+		}
+	}
+}

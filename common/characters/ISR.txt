@@ -1,0 +1,16 @@
+characters={
+	ISR_negev={
+		gender=female
+		name=ISR_CHARACTER_NEGEV
+		portraits={
+			civilian={
+				large="gfx/leaders/ISR/Negev.dds"
+			}
+		}
+		country_leader = {
+			expire = "1965.1.1"
+			ideology = conservatism
+			desc = ISR_CHARACTER_NEGEV_DESC
+		}
+	}
+}

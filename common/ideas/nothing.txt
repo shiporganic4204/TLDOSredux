@@ -1,0 +1,54 @@
+ideas = {
+	country = {
+		No_mans_land = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			rule = {
+				can_join_factions = no
+				can_send_volunteers = no
+				can_force_government = no
+				can_puppet = no
+			}
+
+			picture = generic_infantry_bonus
+			
+			modifier = {
+				max_fuel = 0
+				base_fuel_gain_factor = -1
+				trade_opinion_factor = -1000.0
+				join_faction_tension = 750
+				enemy_justify_war_goal_time = 900
+				research_speed_factor = -2
+				neutrality_drift = 1
+				political_power_gain = -500
+				drift_defence_factor = 1
+				consumer_goods_factor = 1
+				local_resources_factor = -1
+				MONTHLY_POPULATION = 0
+				justify_war_goal_time = 900
+				conscription = -10
+				max_command_power = -200
+				training_time_army_factor = 999.999
+				improve_relations_maintain_cost_factor = 100
+				Industrial_capacity_factory = -1
+				resistance_target = -1
+				operative_slot = -10
+				intelligence_agency_defense = 25
+				ai_license_acceptance = -100
+				ai_join_ally_desire_factor = -100
+				ai_get_ally_desire_factor = -100
+				ai_focus_war_production_factor = -1
+				embargo_cost_factor = -1
+			}
+		}
+	}
+}

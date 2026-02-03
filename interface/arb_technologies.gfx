@@ -1,0 +1,11 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_TechnicalsT_medium"
+		texturefile = "gfx\interface\technologies\technicals.dds"
+	}
+	SpriteType = {
+		name = "GFX_TachankaT_medium"
+		texturefile = "gfx\interface\technologies\tachanka.dds"
+	}
+
+}
