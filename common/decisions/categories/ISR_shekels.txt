@@ -1,6 +1,0 @@
-ISR_shekels = {
-	icon = GFX_world_tension_icon
-	allowed = {
-	tag = ISR
-	}
-}

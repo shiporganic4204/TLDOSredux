@@ -1,7 +1,0 @@
-ARB_toxins = {
-	icon = GFX_world_tension_icon
-	allowed = {
-	tag = ARB
-	ruling_party = fascism
-	}
-}
