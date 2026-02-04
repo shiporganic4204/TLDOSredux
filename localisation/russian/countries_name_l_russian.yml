@@ -69,11 +69,11 @@
 
  
  LMK_neutrality: "Ла-Маншское Королевство"
- LMK_fascism: "Империум Северной Европы"
+ LMK_fascism: "Империя Северной Европы"
  
- ZCS_communism: "ZCS"
- ZCS_fascism: "Российская Империя"
+ ZCS_communism: "Правда"
+ ZCS_fascism: "Evil Правда"
  ZCS_democratic: "Трамп"
  ZCS_neutrality: "Восточная Польша"
 
-IRA: "Иран"
+ IRA: "Иран"
