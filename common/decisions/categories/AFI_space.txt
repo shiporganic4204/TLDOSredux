@@ -1,0 +1,6 @@
+AFI_Colonisation = {
+	icon = GFX_world_tension_icon
+	allowed = {
+	tag = AFI
+	}
+}

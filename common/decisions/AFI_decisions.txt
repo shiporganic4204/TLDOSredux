@@ -1,0 +1,84 @@
+AFI_Colonisation = {
+	AFI_Space_Fabric = {
+		visible = { always = yes }
+		cost = 150
+		fire_only_once = no
+		ai_will_do = {
+			factor = 0
+		}
+		days_remove = 60
+		complete_effect = {
+			add_offsite_building = { type = industrial_complex level = 1 }
+			
+		}
+		modifier = { consumer_goods_factor = 0.2 }
+	}
+	AFI_Space_Arms = {
+		visible = { always = yes }
+		cost = 150
+		fire_only_once = no
+		ai_will_do = {
+			factor = 0
+		}
+		days_remove = 60
+		complete_effect = {
+			add_offsite_building = { type = arms_factory level = 1 }
+			
+		}
+		modifier = { consumer_goods_factor = 0.2 }
+	}
+	AFI_Manpower_From_Space = {
+		visible = { always = yes }
+		available = {
+		}
+		fire_only_once = no
+		ai_will_do = {
+			factor = 0
+		}
+		days_remove = 5
+		remove_effect = {
+			activate_decision = AFI_Manpower_From_Space
+			add_manpower = 1000000
+		}
+	}
+	AFI_Space_Attack = {
+		available = { 
+			FROM = {
+				controller = { has_war_with = ROOT }
+			} 
+		}
+		target_trigger = {
+			FROM = {
+				controller = { has_war_with = ROOT }
+			}
+		}
+		visible = {}
+		cost = 50
+		on_map_mode = map_only
+		state_target = yes
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+			FROM = {
+				controller = { has_war_with = ROOT }
+			}
+		}
+		complete_effect = {
+			FROM = {
+				create_unit = {
+					division = "name = \"Infantry Division\" division_template = \"Civilians With Rifles\" start_experience_factor = 0.5"
+
+					allow_spawning_on_enemy_provs = yes
+					owner = AFI
+					count = 1
+				}
+			}
+			complete_effect = {
+				news_event = { id = news.1 days = 0 }
+			}
+			add_manpower = -5000
+		}
+		
+	}
+}
