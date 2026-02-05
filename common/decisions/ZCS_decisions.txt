@@ -20,7 +20,7 @@ ZCS_katyusha = {
 		}
 		days_re_enable = 1
 		complete_effect = {
-			play_song = "end"
+			play_song = "katya"
 		}
 	}
 }

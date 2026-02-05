@@ -23,3 +23,9 @@ music = {
 		factor = 0
 	}
 }
+music = {
+	song = "katya"
+	chance = {
+		factor = 0
+	}
+}

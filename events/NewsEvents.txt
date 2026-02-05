@@ -10,6 +10,6 @@
 	
 	option = {
 		name = news.1.a
-		play_song = "end"
+		play_song = "katya"
 	}
 }
