@@ -33,9 +33,9 @@ AFI_Colonisation = {
 		}
 		fire_only_once = no
 		ai_will_do = {
-			factor = 0
+			factor = 100
 		}
-		days_remove = 5
+		days_remove = 30
 		remove_effect = {
 			activate_decision = AFI_Manpower_From_Space
 			add_manpower = 1000000
