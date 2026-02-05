@@ -1,0 +1,11 @@
+PRD_zombification = {
+	icon = GFX_world_tension_icon
+	allowed = {
+	tag = PRD
+	}
+	on_map_area = {
+		state = 183
+		name = DNR_test_on_cyprys
+		zoom = 250
+	}
+}

@@ -1,0 +1,6 @@
+total_war_category = {
+	icon = GFX_world_tension_icon
+	allowed = {
+	tag = AFI
+	}
+}

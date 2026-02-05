@@ -1,0 +1,126 @@
+total_war_category = {
+    
+    total_war_declare = {
+        available_if_capitulated = no
+        
+        available = {
+            surrender_progress > 0.20
+            NOT = { has_country_idea = total_war_national_idea }
+            has_war = yes
+        }
+        
+        visible = {
+            has_war = yes
+        }
+        
+        days_remove = 1
+        days_re_enable = 7 # Можно перепринять через 7 дней если отменили
+        
+        cost = 50 # Политическая власть
+        
+        complete_effect = {
+            add_ideas = total_war_national_idea
+            add_war_support = 0.15
+            
+            # Событие для иммерсивности
+        }
+        
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 2
+                surrender_progress > 0.50
+            }
+            modifier = {
+                factor = 0.5
+                has_idea = democracy_support
+            }
+        }
+        
+        remove_effect = {
+            # Ничего не удаляем - отмена через другое решение
+        }
+    }
+    
+    total_war_last_reserves = {
+        available_if_capitulated = no
+        
+        available = {
+            has_country_idea = total_war_national_idea
+            surrender_progress > 0.50
+            manpower < 50000
+            NOT = { has_country_idea = last_reserves_temp_buff }
+        }
+        
+        visible = {
+			has_war = yes
+        }
+        
+        days_remove = 1
+        days_re_enable = 365 # Можно использовать только раз в год
+        
+        cost = 100 # Высокая политическая стоимость
+        
+        complete_effect = {
+            add_manpower = 500000
+            add_ideas = last_reserves_temp_buff
+            add_war_support = -0.10
+            
+            # Событие о мобилизации
+        }
+        
+        ai_will_do = {
+            factor = 0.8
+            modifier = {
+                factor = 2
+                manpower < 10000
+            }
+        }
+    }
+    
+    
+    total_war_end = {
+        available_if_capitulated = no
+        
+        available = {
+            has_country_idea = total_war_national_idea
+            surrender_progress < 0.10
+            check_variable = { total_war_days_active = 30 }
+            
+            # Враг не контролирует наши ключевые регионы
+            NOT = {
+                any_owned_state = {
+                    is_core = yes
+                    is_capital = yes
+                    is_controlled_by = enemy
+                }
+            }
+        }
+        
+        visible = {
+            has_country_idea = total_war_national_idea
+        }
+        
+        days_remove = 1
+        days_re_enable = 90 # Нельзя быстро снова включить
+        
+        cost = 25
+        
+        complete_effect = {
+            remove_ideas = total_war_national_idea
+            add_war_support = -0.10
+            
+            # Послевоенный бафф восстановления
+
+            
+        }
+        
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 0.1
+                surrender_progress > 0.05s # AI не отменит если еще опасность
+            }
+        }
+    }
+}

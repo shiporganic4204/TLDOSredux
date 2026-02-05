@@ -1,0 +1,26 @@
+ZCS_katyusha = {
+	ZCS_music = {
+		visible = { always = yes }
+		cost = 200
+		fire_only_once = no
+		ai_will_do = {
+			factor = 100
+		}
+		days_re_enable = 365
+		complete_effect = {
+			news_event = { id = news.1 days = 0 }
+		}
+	}
+	ZCS_music_to_me = {
+		visible = { always = yes }
+		cost = 2
+		fire_only_once = no
+		ai_will_do = {
+			factor = 0
+		}
+		days_re_enable = 1
+		complete_effect = {
+			play_song = "end"
+		}
+	}
+}

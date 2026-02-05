@@ -1,0 +1,6 @@
+ZCS_katyusha = {
+	icon = GFX_world_tension_icon
+	allowed = {
+	tag = ZCS
+	}
+}

@@ -1,0 +1,40 @@
+# Идея, которая добавляется при активации Тотальной Войны
+ideas = {
+country = {
+total_war_national_idea = {
+    allowed = { always = no } # Только через решение
+    allowed_civil_war = no
+    
+    picture = generic_total_war_economy
+    modifier = {
+        industrial_capacity_factory = 0.25
+        available_manpower_factor = 0.20
+        production_speed_industrial_complex_factor = -0.30
+        construction_speed = -0.40
+        daily_politics_cost_factor = 0.75
+        resources_to_market_factor = 0.20
+        research_speed_factor = -0.15
+    }
+    
+    rule = {
+        can_cancel = no # Можно отменить только через решение
+    }
+}
+
+# Временный бафф от "Последних резервов"
+last_reserves_temp_buff = {
+    allowed = { always = no } # Только через решение
+    
+    picture = generic_manpower
+    modifier = {
+        training_time_factor = -0.10
+        war_support_factor = -0.10
+    }
+    
+    duration = 180 # Автоматически снимается через 180 дней
+}
+
+# Бафф от "Выжженной земли"
+
+}
+}
