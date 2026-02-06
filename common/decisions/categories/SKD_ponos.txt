@@ -1,0 +1,6 @@
+SKD_ponos = {
+	icon = GFX_world_tension_icon
+	allowed = {
+	any_neighbor_country = SKD
+	}
+}

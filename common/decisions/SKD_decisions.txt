@@ -1,0 +1,78 @@
+
+SKD_ponos = {
+	SKD_ponos_state = {
+		available = { 
+			FROM = {
+				controller = {NOT = {tag = ROOT}}
+				controller = {NOT = {tag = NOT}}
+			} 
+			has_equipment = {
+				infantry_equipment_1 > 10000
+			}
+		}
+		target_trigger = {
+			FROM = {
+				controller = {NOT = {tag = ROOT}}
+				controller = {NOT = {tag = NOT}}
+			}
+			
+		}
+		cost = 100
+		on_map_mode = map_only
+		state_target = yes
+		days_re_enable = 30
+		ai_will_do = {
+			factor = 100
+		}
+		complete_effect = {
+			FROM = {
+				set_state_flag = ponos_infected
+			}
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -10000
+			}
+		}
+	}
+	SKD_ponos_WAR = {
+		available = { 
+			FROM = {
+				NOT = {tag = ROOT}
+				NOT = {tag = NOT}
+				controller = {
+					any_state = {has_state_flag = ponos_infected}
+				}
+			}
+			
+		}
+		target_trigger = {
+			FROM = {
+				NOT = {tag = ROOT}
+				NOT = {tag = NOT}
+				controller = {
+					any_state = {has_state_flag = ponos_infected}
+				}
+			}
+		}
+		visible = { always = yes }
+		cost = 150
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 100
+		}
+		complete_effect = {
+			FROM = {
+				start_civil_war = {
+					ruling_party = fascism
+					ideology = neutrality
+					size = 1
+					army_ratio = 0.1
+					states = all
+					states_filter = {
+						has_state_flag = ponos_infected
+					}
+				}
+			}
+		}
+	}
+}
