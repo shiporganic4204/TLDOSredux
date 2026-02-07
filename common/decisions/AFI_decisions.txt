@@ -75,7 +75,7 @@ AFI_Colonisation = {
 				}
 			}
 			complete_effect = {
-				news_event = { id = news.1 days = 0 }
+				news_event = { id = news.2 days = 0 }
 			}
 			add_manpower = -5000
 		}
