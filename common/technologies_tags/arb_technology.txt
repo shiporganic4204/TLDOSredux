@@ -1,3 +1,4 @@
 technology_categories = {
 	TechnicalsT_categ
+	hitler
 }

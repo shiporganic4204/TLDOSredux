@@ -1,0 +1,17 @@
+technologies = {
+	ruler_tech ={
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 0
+				y = 20
+			}
+		}
+		start_year = 14000
+		research_cost = 100
+
+		categories = {
+			hitler
+		}
+	}
+}
